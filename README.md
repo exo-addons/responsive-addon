@@ -1,4 +1,3 @@
-responsive-addon
-================
+Responsive Add-On
+============
 
-Responsive UI for eXo platform

@@ -1,0 +1,112 @@
+/* Landscape phones and down */
+
+@media (max-width: 480px) {
+  @width: 50px;
+
+  .LeftNavigationTDContainer, .UIHelpPlatformToolbarPortletTDContainer, .AdminToolBarPortletTDContainer, .UISetupPlatformToolBarPortletIDTDContainer, .ChatNotificationTDContainer {
+    display: none;
+  }
+
+  .UserInfoPortletTDContainer .uiUserToolBarPortlet a.dropdown-toggle {
+    font-size: 0;
+  }
+
+  .responsiveMenu {
+    display: inline-block;
+    color: white;
+    font-size: 28px;
+    margin-top: 6px;
+    margin-left: 5px;
+    cursor: pointer;
+    vertical-align: top;
+  }
+  
+  a.HomeLink {
+    line-height: 24px;
+    position: relative;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: text-bottom;
+  }
+
+  .UITableColumn {
+    .OfficeMiddleTDContainer {
+      width: 100%;
+      padding: 10px!important;
+    }
+
+    .OfficeRightTDContainer {
+      // width: 230px!important; 
+      display: none;
+      padding-top: 10px;
+    }
+
+  }
+
+  .activityStream {
+    .fileShare {
+      .text {
+        display: inline;
+      }
+    }
+  }
+  
+  .commnuityNavigation {
+  	position: relative;
+  	 
+  	.btn-group {
+  		position: absolute;
+		right: 10px;
+	}
+	
+	.logoCommnunity {
+	  	overflow: hidden;
+	  	width: 65px;
+	  	margin-right: 15px;
+	 }
+	 
+	 .logoCommnunity > a {
+	  	display: block;
+	  	width: 173px;
+	 }
+  }
+  
+   .UIToolbarContainer #HomeLink {
+  		margin-right: 15px;
+  		overflow: hidden;
+  		padding-right: 0 !important;
+  		width: 65px;
+  		
+  		.HomeLink {
+   			display: block;
+			width: 65px;
+			position: absolute;
+			top: 6px;
+			left: 45px;
+			overflow: hidden;
+			
+			img {
+				min-width: 173px;
+			}
+  		}
+ 	}
+ 	
+ 	.UIToolbarContainer .uiUserToolBarPortlet>a>img {
+ 		margin-top: 8px;
+ 	}
+ 	
+ 	.uiSearchPlatformToolBarPortlet {
+	  input[type="text"] {
+	   width: 145px;
+	   margin-left: 0;
+	  }
+ 	}
+}
+
+@media (min-width: 481px) {
+
+  .responsiveMenu {
+    display: none;
+  }
+	
+}

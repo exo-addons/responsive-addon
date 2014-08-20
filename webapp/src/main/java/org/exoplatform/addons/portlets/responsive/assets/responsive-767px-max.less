@@ -1,0 +1,84 @@
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	#atlwdg-trigger {
+	  	display:none !important;
+	}
+	
+	.ChatNotificationTDContainer {
+		display: none;
+  	}
+}
+  
+@media (min-width: 481px) and (max-width: 767px) {
+  @width:                       70px;
+
+  .UserInfoPortletTDContainer .uiUserToolBarPortlet a.dropdown-toggle,
+  .AdminToolBarPortletTDContainer .uiAdminToolbarPortlet a.dropdown-toggle,
+  .UISetupPlatformToolBarPortletIDTDContainer .uiSetupPlatformToolBarPortlet a.dropdown-toggle{
+    font-size: 0;
+    position: relative;
+    top: 4px;
+    line-height: 38px;
+  }
+
+  .UIHelpPlatformToolbarPortletTDContainer {
+    display: none;
+  }
+
+  .UITableColumn {
+    .OfficeMiddleTDContainer {
+      width: 400px;
+    }
+
+  }
+
+  .activityStream {
+    .fileShare {
+      .text {
+        display: inline;
+      }
+    }
+  }
+}
+
+@media(max-width: 640px) {
+ .SearchPortletTDContainer.open {
+  + .UICreatePlatformToolBarPortletIDTDContainer {
+   display: none;
+  }
+  .uiDropdownWithIcon {
+   background: none;
+  }
+ }
+}
+
+@media (min-width: 481px) and (max-width: 575px) {
+ .uiSearchPlatformToolBarPortlet {
+  input[type="text"] {
+   width: 170px;
+   margin-left: 0;
+  }
+ }
+}
+
+
+/* Begin Profile Page*/
+
+@media (max-width: 1100px) {
+ .uiUserNavigationPortlet {
+  overflow-x: auto;
+ }
+ .uiUserNavigationPortlet .userNavigation {
+  white-space: nowrap;
+  margin-bottom: 0;
+ }
+ .uiUserNavigationPortlet .userNavigation > li {
+  display: inline-block;
+  float: none;
+  > a {
+   margin-top: 8px!important;
+  }
+ } 
+}
+
+/* End Profile Page*/
