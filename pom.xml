@@ -42,10 +42,10 @@
     <module>bundle</module>
   </modules>
   <scm>
-    <connection>scm:git:git://github.com/exo-addons</connection>
-    <developerConnection>scm:git:git@github.com:exo-addons</developerConnection>
+    <connection>scm:git:git://github.com/exo-addons/responsive-addon.git</connection>
+    <developerConnection>scm:git:git@github.com:exo-addons/responsive-addon.git</developerConnection>
     <tag>HEAD</tag>
-    <url>https://github.com/exo-addons</url>
+    <url>https://github.com/exo-addons/responsive-addon.git</url>
   </scm>
   <properties>
     <exoplatform.version>4.1-M2</exoplatform.version>
