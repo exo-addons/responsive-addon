@@ -1,12 +1,12 @@
 Responsive Addn
 ============
 
-Responsive Add-on will allow your side that based on eXo Platform display well with almost of small screen devicess 
+Responsive Add-on allows your side that based on eXo Platform 4.0.x display well with almost of small screen devicess 
 
 <img src="https://github.com/exo-addons/responsive-addon/blob/master/screenshots/reponsive-addon-1.png" />
 
 
-Deployment to eXo Platform
+Deployment on eXo Platform
 ---------------
 
 * Build a project using: mvn clean install
