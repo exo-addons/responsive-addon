@@ -30,7 +30,7 @@
     <relativePath />
   </parent>
   <groupId>org.exoplatform.addons.responsive</groupId>
-  <artifactId>reponsive-addon</artifactId>
+  <artifactId>responsive-addon</artifactId>
   <version>1.0.x-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Responsive for eXo Platform 4</name>

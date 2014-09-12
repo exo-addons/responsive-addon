@@ -15,6 +15,22 @@
       }
     });
 
+    resize();
+
+    $( window ).resize(function() {
+      resize();
+    });
+
   });
 
 })(jQuery);
+
+function resize() {
+
+      if ($(window).width() > 480 ) {
+          var $leftNavigationTDContainer = $(".LeftNavigationTDContainer");
+         if (!$leftNavigationTDContainer.is(":visible")) {
+          $leftNavigationTDContainer.animate({width: 'show', duration: 50});
+        }
+      }
+}
