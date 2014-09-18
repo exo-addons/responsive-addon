@@ -33,7 +33,7 @@
 			<useProjectArtifact>false</useProjectArtifact>
 			<outputDirectory>/webapps/</outputDirectory>
 			<includes>
-				<include>${project.groupId}:responsive-webapp:war</include>
+				<include>${project.groupId}:responsive-extension:war</include>
 			</includes>
 			<scope>provided</scope>
 			<outputFileNameMapping>responsive-extension.war</outputFileNameMapping>

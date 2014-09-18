@@ -47,7 +47,7 @@
     </dependency-->
     <dependency>
       <groupId>org.exoplatform.addons.responsive</groupId>
-      <artifactId>responsive-webapp</artifactId>
+      <artifactId>responsive-extension</artifactId>
       <version>1.0.x-SNAPSHOT</version>
       <type>war</type>
       <scope>provided</scope>

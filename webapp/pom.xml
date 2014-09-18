@@ -28,7 +28,7 @@
     <groupId>org.exoplatform.addons.responsive</groupId>
     <version>1.0.x-SNAPSHOT</version>
   </parent>
-  <artifactId>responsive-webapp</artifactId>
+  <artifactId>responsive-extension</artifactId>
   <packaging>war</packaging>
   <name>eXo Responsive Addon :: Webapp</name>
   <description>eXo Responsive Addon - Webapp</description>

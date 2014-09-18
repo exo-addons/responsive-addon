@@ -32,6 +32,7 @@
 		<listener>
 			<listener-class>org.exoplatform.container.web.PortalContainerConfigOwner</listener-class>
 		</listener>
+        
 		<servlet>
 			<servlet-name>AssetServlet</servlet-name>
 			<servlet-class>juzu.impl.asset.AssetServlet</servlet-class>
