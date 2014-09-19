@@ -24,7 +24,7 @@
   <parent>
     <artifactId>responsive-addon</artifactId>
     <groupId>org.exoplatform.addons.responsive</groupId>
-    <version>1.0.0</version>
+    <version>1.0.x-SNAPSHOT</version>
   </parent>
   <artifactId>responsive-config</artifactId>
   <packaging>jar</packaging>
