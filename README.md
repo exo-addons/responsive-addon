@@ -7,7 +7,9 @@ Responsive Add-on allows your side that based on eXo Platform 4.0.x display well
 
 Prerequisites
 ---------------
-The Add-on requires Platform 4.1.x. I’ve already tested it on Platform 4.1-M1 and 4.1-M2.
+The Add-on requires Platform 4.0.x & 4.1.x. 
+
+I’ve already tested it on Platform 4.0.7, 4.1-M1 and 4.1-M2.
 
 
 Deployment on eXo Platform
