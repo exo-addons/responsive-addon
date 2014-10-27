@@ -7,19 +7,14 @@ Responsive Add-on allows your side that based on eXo Platform 4.0.x display well
 
 Prerequisites
 ---------------
-The Add-on requires Platform 4.0.x & 4.1.x. 
-
-I’ve already tested it on Platform 4.0.7, 4.1-M1 and 4.1-M2.
-
+The Add-on requires Platform 4.1.x.
 
 Deployment on eXo Platform
 ---------------
 
-* Build a project using: mvn clean install
+The Responsive add-on is available from the eXo Add-ons Repository. You can install it using the <a href="http://docs.exoplatform.com/public/index.jsp?topic=%2FPLF41%2FPLFAdminGuide.AddonsManagement.html">eXo Add-ons Manager</a> with one single command line, which downloads and deploys it:
+addon install exo-responsive-addon
+ 
 
-* Copy the responsive-extension.war file to the ${PLF_TOMCAT}/webapps directory.
-* Copy the responsive-config-1.0.x.jar file to the ${PLF_TOMCAT}/lib directory.
-* Start your tomcat using: ./start_eXo.sh
 
-* Note: three files above are also available in responsive-addon/bundle/target/responsive.zip
 
