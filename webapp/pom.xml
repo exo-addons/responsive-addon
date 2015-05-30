@@ -26,7 +26,7 @@
   <parent>
     <artifactId>responsive-addon</artifactId>
     <groupId>org.exoplatform.addons.responsive</groupId>
-    <version>1.1.x-SNAPSHOT</version>
+    <version>1.2.x-SNAPSHOT</version>
   </parent>
   <artifactId>responsive-extension</artifactId>
   <packaging>war</packaging>
@@ -36,12 +36,6 @@
       <dependency>
         <groupId>org.exoplatform.commons</groupId>
         <artifactId>commons-webui-component</artifactId>
-        <scope>provided</scope>
-      </dependency>
-      <dependency>
-        <groupId>org.juzu</groupId>
-        <artifactId>juzu-bom-core</artifactId>
-        <version>${juzu.version}</version>
         <scope>provided</scope>
       </dependency>
       <dependency>

@@ -16,16 +16,15 @@
  * Software Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA
  * 02110-1301 USA, or see the FSF site: http://www.fsf.org.
  */
-@Assets(
-        location = AssetLocation.SERVER,
-        scripts = {
-                @Script(src = "js/jquery-1.8.3.min.js", id = "jquery"),
-                @Script(src = "js/responsive.js", id = "responsive", depends = "jquery")
-        },
-        stylesheets = {
-                @Stylesheet(src = "/org/exoplatform/addons/portlets/responsive/assets/responsive.css", location = AssetLocation.APPLICATION)
-        }
-)
+
+@Scripts({
+        @Script(value = "js/jquery-1.8.3.min.js", id = "jquery", location = AssetLocation.SERVER),
+        @Script(value = "js/responsive.js", id = "responsive", depends = "jquery", location = AssetLocation.SERVER)
+})
+@Stylesheets({
+        @Stylesheet(value = "/org/exoplatform/addons/portlets/responsive/assets/responsive.css", location = AssetLocation.APPLICATION)
+})
+@Assets("*")
 @Less(value = "responsive.less", minify = true)
 
 
@@ -36,6 +35,8 @@ import juzu.Application;
 import juzu.asset.AssetLocation;
 import juzu.plugin.asset.Assets;
 import juzu.plugin.asset.Script;
+import juzu.plugin.asset.Scripts;
 import juzu.plugin.asset.Stylesheet;
+import juzu.plugin.asset.Stylesheets;
 import juzu.plugin.less.Less;
 import juzu.plugin.portlet.Portlet;
