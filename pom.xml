@@ -31,7 +31,7 @@
   </parent>
   <groupId>org.exoplatform.addons.responsive</groupId>
   <artifactId>responsive-addon</artifactId>
-  <version>1.1.x-SNAPSHOT</version>
+  <version>1.2.x-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Responsive for eXo Platform 4</name>
   <description>Responsive for eXo Platform 4</description>
@@ -48,10 +48,10 @@
     <url>https://github.com/exo-addons/responsive-addon.git</url>
   </scm>
   <properties>
-    <exoplatform.version>4.1-M2</exoplatform.version>
-    <commons-lang3.version>3.1</commons-lang3.version>
+    <exoplatform.version>4.2.0-RC1</exoplatform.version>
+    <commons-lang3.version>3.2</commons-lang3.version>
     <javax.enterprise.cdi.version>1.0-SP4</javax.enterprise.cdi.version>
-    <juzu.version>0.6.2</juzu.version>
+    <juzu.version>1.0.0</juzu.version>
   </properties>
   <dependencyManagement>
     <dependencies>

@@ -22,14 +22,13 @@ import java.io.IOException;
 
 import juzu.Response;
 import juzu.View;
-import juzu.request.RenderContext;
 
 /** @author <a href="mailto:benjamin.paillereau@exoplatform.com">Benjamin Paillereau</a> */
 public class ResponsiveApplication
 {
 
   @View
-  public Response.Content index(RenderContext renderContext) throws IOException
+  public Response.Content index() throws IOException
   {
     //indexTemplate.render();
     return Response.ok("");
