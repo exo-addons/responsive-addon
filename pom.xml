@@ -31,7 +31,7 @@
   </parent>
   <groupId>org.exoplatform.addons.responsive</groupId>
   <artifactId>responsive-addon</artifactId>
-  <version>1.2.x-SNAPSHOT</version>
+  <version>1.2.0</version>
   <packaging>pom</packaging>
   <name>Responsive for eXo Platform 4</name>
   <description>Responsive for eXo Platform 4</description>
@@ -44,7 +44,7 @@
   <scm>
     <connection>scm:git:git://github.com/exo-addons/responsive-addon.git</connection>
     <developerConnection>scm:git:git@github.com:exo-addons/responsive-addon.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>1.2.0</tag>
     <url>https://github.com/exo-addons/responsive-addon.git</url>
   </scm>
   <properties>

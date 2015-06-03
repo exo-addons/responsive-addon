@@ -26,7 +26,7 @@
   <parent>
     <artifactId>responsive-addon</artifactId>
     <groupId>org.exoplatform.addons.responsive</groupId>
-    <version>1.2.x-SNAPSHOT</version>
+    <version>1.2.0</version>
   </parent>
   <artifactId>responsive-bundle</artifactId>
   <packaging>jar</packaging>
@@ -36,7 +36,7 @@
     <dependency>
       <groupId>org.exoplatform.addons.responsive</groupId>
       <artifactId>responsive-config</artifactId>
-      <version>1.2.x-SNAPSHOT</version>
+      <version>1.2.0</version>
       <scope>provided</scope>
     </dependency>
     <!--dependency>
@@ -48,7 +48,7 @@
     <dependency>
       <groupId>org.exoplatform.addons.responsive</groupId>
       <artifactId>responsive-extension</artifactId>
-      <version>1.2.x-SNAPSHOT</version>
+      <version>1.2.0</version>
       <type>war</type>
       <scope>provided</scope>
     </dependency>
